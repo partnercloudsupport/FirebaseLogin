@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
             child: GestureDetector(
               onTap: (){
                 print("Hello");
-                //TODO: Logout
+                //TODO: Logout and move to Login page
               },
               child: Row(children: <Widget>[Icon(FontAwesomeIcons.signOutAlt,color: Colors.green,)],),
             ),
